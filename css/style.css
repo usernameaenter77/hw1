@@ -1,0 +1,80 @@
+body {
+  background: url("../img/pattern.png");
+  margin: 0;
+
+  font-size: 18px;
+  font-family: Tahoma;
+  line-height: 1.5;
+}
+.card {
+  width: 400px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 0 5px 10px #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+.card-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.text {
+  color: rgb(0, 0, 0);
+  font-family: Tahoma;
+}
+.UL-LI {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.qqq {
+  color: black;
+  box-shadow: 0 5px 10px rgb(148, 58, 237);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.2s linear, 0.4s linear;
+  transition-property: all;
+}
+.qqq:hover {
+  opacity: 10;
+  background: rgb(148, 58, 237);
+}
+
+.plan {
+  box-shadow: 0 5px 10px red;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.2s linear, 0.4s linear;
+  transition-property: all;
+}
+.plan:hover {
+  opacity: 10;
+  background: #ff0303;
+}
+.plan-future {
+  padding-left: 0;
+  list-style-position: inside;
+  color: rgb(0, 0, 0);
+}
+.adress {
+  box-shadow: 0 5px 10px rgb(26, 123, 193);
+  text-align: center;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.2s linear, 0.4s linear;
+  transition-property: all;
+}
+.adress:hover {
+  opacity: 10;
+  background: #4cbbf3;
+}
